@@ -1,0 +1,21 @@
+{
+  "name": "alpin11/coreshop-advanced-inventory-bundle",
+  "description": "Extends the inventory and availability checking with useful patterns and tools",
+  "type": "pimcore-bundle",
+  "authors": [
+    {
+      "name": "David Höck",
+      "email": "d.hoeck@alpin11.at",
+      "role": "Developer",
+      "homepage": "https://www.alpin11.at"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CoreShop\\Bundle\\AdvancedInventoryBundle\\": "src/"
+    }
+  },
+  "require": {
+    "coreshop/inventory-bundle": "^2.0"
+  }
+}
