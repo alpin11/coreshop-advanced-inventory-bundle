@@ -3,7 +3,6 @@
 
 namespace CoreShop\Bundle\AdvancedInventoryBundle\DependencyInjection;
 
-
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

@@ -3,7 +3,6 @@
 
 namespace CoreShop\Bundle\AdvancedInventoryBundle\DependencyInjection\Compiler;
 
-
 use CoreShop\Bundle\PimcoreBundle\DependencyInjection\Compiler\PrioritizedCompositeServicePass;
 
 class RegisterAvailabilityCheckerPass extends PrioritizedCompositeServicePass

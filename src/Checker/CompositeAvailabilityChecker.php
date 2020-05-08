@@ -3,7 +3,6 @@
 
 namespace CoreShop\Bundle\AdvancedInventoryBundle\Checker;
 
-
 use CoreShop\Component\Inventory\Model\StockableInterface;
 use Zend\Stdlib\PriorityQueue;
 
@@ -35,7 +34,6 @@ class CompositeAvailabilityChecker implements AvailabilityCheckerInterface
     public function isStockAvailable(StockableInterface $stockable)
     {
         foreach ($this->checkers as $checker) {
-
             if (!$checker->supports($stockable)) {
                 continue;
             }
@@ -54,7 +52,6 @@ class CompositeAvailabilityChecker implements AvailabilityCheckerInterface
     public function isStockSufficient(StockableInterface $stockable, $quantity)
     {
         foreach ($this->checkers as $checker) {
-
             if (!$checker->supports($stockable)) {
                 continue;
             }

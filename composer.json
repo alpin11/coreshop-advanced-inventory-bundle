@@ -2,6 +2,14 @@
   "name": "alpin11/coreshop-advanced-inventory-bundle",
   "description": "Extends the inventory and availability checking with useful patterns and tools",
   "type": "pimcore-bundle",
+  "keywords": [
+    "coreshop",
+    "pimcore",
+    "ecommerce",
+    "inventory"
+  ],
+  "homepage": "http://www.coreshop.org",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "David Höck",
@@ -16,6 +24,17 @@
     }
   },
   "require": {
+    "php": "^7.2",
     "coreshop/inventory-bundle": "^2.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "pimcore": {
+      "bundles": [
+        "CoreShop\\Bundle\\AdvancedInventoryBundle\\CoreShopAdvancedInventoryBundle"
+      ]
+    }
   }
 }

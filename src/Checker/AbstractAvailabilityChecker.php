@@ -3,7 +3,6 @@
 
 namespace CoreShop\Bundle\AdvancedInventoryBundle\Checker;
 
-
 use CoreShop\Component\Inventory\Model\StockableInterface;
 
 abstract class AbstractAvailabilityChecker implements AvailabilityCheckerInterface
