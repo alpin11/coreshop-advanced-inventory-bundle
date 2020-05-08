@@ -3,6 +3,12 @@
 This Bundle adds some simple but effective changes to the availability checker. 
 It requires the [coreshop/inventory-bundle](https://github.com/coreshop/inventory-bundle) repository which will be installed automatically.
 
+## TO DOs 
+
+✅ Register custom availability checkers as services 
+
+➡️ Add a basic toolkit for cached availability checking (e.g fetching stock levels from API)
+
 ## Installation
 
 #### 1. Composer
