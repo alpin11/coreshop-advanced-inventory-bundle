@@ -34,4 +34,7 @@ Then register your class as a service and tag it with `coreshop.inventory.availa
         tags:
             - { name: coreshop.inventory.availability_checker, priority: 200 }
 ```
+#### 4. Done 
 
+The bundle automatically overrides the `coreshop.inventory.availability_checker.default` so you don't have
+to update any of your services. It also makes the alias public, so you can directly access it through the container.
